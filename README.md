@@ -32,17 +32,11 @@ We have used the **XGBoost (Extreme Gradient Boosting)** algorithm for making pr
 - Lightweight and easy to deploy.
 
 
-
-
-
-
-
----
-
 ## ⚙️ Installation and Running the Project
+
 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/parkinsons-predictor.git
-cd parkinsons-predictor
+git https://github.com/ch-ayesha/predictionparkinsons.git
+cd predictionparkinsons
