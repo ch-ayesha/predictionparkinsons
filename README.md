@@ -14,7 +14,7 @@ Parkinson's Disease is a progressive neurological disorder that affects movement
 I have used the **XGBoost (Extreme Gradient Boosting)** algorithm for making predictions. This algorithm is known for its high performance in classification tasks.
 
 - 🔍 Model: XGBoost Classifier
-- 🎯 Accuracy: Achieved high accuracy (over 90%) on validation data
+- 🎯 Accuracy: Achieved high accuracy (87%) on validation data
 - 📁 Input: Voice features (e.g., MDVP:Fo(Hz), Jitter, Shimmer, etc.)
 - 📤 Output: Predicts if the person is likely to have Parkinson’s Disease
 
