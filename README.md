@@ -2,7 +2,6 @@
 
 This is a web-based application that predicts Parkinson's Disease based on voice features using a trained Machine Learning model. The frontend is built using **React + Vite**, styled with **Tailwind CSS**, and the backend is powered by **Flask** with a Python-based ML model (XGBoost).
 
----
 
 ## 🧬 What is Parkinson’s Disease?
 
@@ -12,7 +11,7 @@ One of the early signs of Parkinson’s can be detected through changes in voice
 
 Our application leverages **voice features** to detect Parkinson's with the help of a trained Machine Learning model.
 
----
+
 
 ## 🤖 Machine Learning Model
 
@@ -23,7 +22,7 @@ We have used the **XGBoost (Extreme Gradient Boosting)** algorithm for making pr
 - 📁 Input: Voice features (e.g., MDVP:Fo(Hz), Jitter, Shimmer, etc.)
 - 📤 Output: Predicts if the person is likely to have Parkinson’s Disease
 
----
+
 
 ## 📌 Features
 
@@ -32,26 +31,11 @@ We have used the **XGBoost (Extreme Gradient Boosting)** algorithm for making pr
 - Seamless integration of frontend and backend.
 - Lightweight and easy to deploy.
 
----
 
-## 📂 Project Structure
 
-parkinsons-predictor/ ├── backend/ │ ├── app.py (Flask backend) │ ├── model.pkl (Trained ML model) │ └── requirements.txt ├── frontend/ │ ├── index.html │ ├── vite.config.js │ ├── src/ │ └── tailwind.config.js └── README.md
 
-yaml
-Copy
-Edit
 
----
 
-## 🚀 Getting Started
-
-### 🔧 Prerequisites
-
-- Node.js (v18+ recommended)
-- Python (v3.8+)
-- pip or pipenv
-- Git
 
 ---
 
