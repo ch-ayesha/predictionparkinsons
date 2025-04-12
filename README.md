@@ -43,7 +43,6 @@ cd predictionparkinsons
 
 ### 2. Setup the Frontend (React + Vite + Tailwind CSS)
 
-```bash
 a. Create Vite React App (if not already created)
 
 npm create vite@latest your-app-name --template react
