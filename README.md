@@ -32,15 +32,15 @@ I have used the **XGBoost (Extreme Gradient Boosting)** algorithm for making pre
 - Lightweight and easy to deploy.
 
 ##  🔄 How It Works
-The user enters voice-related features through the UI.
-React frontend sends a POST request to the Flask backend.
-Flask loads the trained ML model (model.pkl) and returns a prediction.
-The frontend displays whether the input indicates Parkinson’s disease.
+- The user enters voice-related features through the UI.
+- React frontend sends a POST request to the Flask backend.
+- Flask loads the trained ML model (model.pkl) and returns a prediction.
+- The frontend displays whether the input indicates Parkinson’s disease.
 
-##📚 Tech Stack
-Frontend: React, Vite, Tailwind CSS
-Backend: Flask (Python)
-ML Model: XGBoost Classifier (scikit-learn)
+## 📚 Tech Stack
+- Frontend: React, Vite, Tailwind CSS
+- Backend: Flask (Python)
+- ML Model: XGBoost Classifier (scikit-learn)
 
 
 ## ⚙️ Installation and Running the Project
