@@ -1,4 +1,4 @@
-# 🧠 Parkinson's Disease Prediction using Voice Features
+# 🧠 Parkinson's Disease Prediction 
 
 This is a web-based application that predicts Parkinson's Disease based on voice features using a trained Machine Learning model. The frontend is built using **React + Vite**, styled with **Tailwind CSS**, and the backend is powered by **Flask** with a Python-based ML model (XGBoost).
 
