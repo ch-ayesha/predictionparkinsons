@@ -5,11 +5,7 @@ This is a web-based application that predicts Parkinson's Disease based on voice
 
 ## 🧬 What is Parkinson’s Disease?
 
-Parkinson's Disease is a progressive neurological disorder that affects movement and speech. It often begins with a slight tremor in one hand and gradually causes stiffness or slowing of movement. 
-
-One of the early signs of Parkinson’s can be detected through changes in voice. Subtle variations in pitch, jitter, shimmer, and other acoustic features can indicate the onset of the disease.
-
-Our application leverages **voice features** to detect Parkinson's with the help of a trained Machine Learning model.
+Parkinson's Disease is a progressive neurological disorder that affects movement and speech. It often begins with a slight tremor in one hand and gradually causes stiffness or slowing of movement. One of the early signs of Parkinson’s can be detected through changes in voice. Subtle variations in pitch, jitter, shimmer, and other acoustic features can indicate the onset of the disease. Our application leverages **voice features** to detect Parkinson's with the help of a trained Machine Learning model.
 
 
 
