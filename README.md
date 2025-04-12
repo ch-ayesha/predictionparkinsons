@@ -40,3 +40,33 @@ We have used the **XGBoost (Extreme Gradient Boosting)** algorithm for making pr
 ```bash
 git https://github.com/ch-ayesha/predictionparkinsons.git
 cd predictionparkinsons
+
+### 2. Setup the Frontend (React + Vite + Tailwind CSS)
+
+a. Create Vite React App (if not already created)
+
+npm create vite@latest your-app-name --template react
+cd your-app-name
+b. Install project dependencies
+
+npm install
+c. Install Tailwind CSS
+
+npm install -D tailwindcss @tailwindcss/vite
+d. Tailwind Setup
+vite.config.js
+
+
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'
+
+export default defineConfig({
+  plugins: [react(), tailwindcss()],
+})
+
+index.css
+@import "tailwindcss";
+
+e. Start the frontend
+npm run dev
