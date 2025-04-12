@@ -15,7 +15,7 @@ Our application leverages **voice features** to detect Parkinson's with the help
 
 ## 🤖 Machine Learning Model
 
-We have used the **XGBoost (Extreme Gradient Boosting)** algorithm for making predictions. This algorithm is known for its high performance in classification tasks.
+I have used the **XGBoost (Extreme Gradient Boosting)** algorithm for making predictions. This algorithm is known for its high performance in classification tasks.
 
 - 🔍 Model: XGBoost Classifier
 - 🎯 Accuracy: Achieved high accuracy (over 90%) on validation data
@@ -31,10 +31,19 @@ We have used the **XGBoost (Extreme Gradient Boosting)** algorithm for making pr
 - Seamless integration of frontend and backend.
 - Lightweight and easy to deploy.
 
+##  🔄 How It Works
+The user enters voice-related features through the UI.
+React frontend sends a POST request to the Flask backend.
+Flask loads the trained ML model (model.pkl) and returns a prediction.
+The frontend displays whether the input indicates Parkinson’s disease.
+
+##📚 Tech Stack
+Frontend: React, Vite, Tailwind CSS
+Backend: Flask (Python)
+ML Model: XGBoost Classifier (scikit-learn)
+
 
 ## ⚙️ Installation and Running the Project
-
-
 ### 1. Clone the Repository
 
 ```bash
@@ -51,5 +60,15 @@ npm install -D tailwindcss @tailwindcss/vite
 
 d. Start the frontend
 npm run dev
+
+3. Setup the Backend (Flask + ML Model)
+
+cd flaskapi
+
+b. Install the dependencies
+pip install -r requirements.txt
+
+c. Run the Flask app
+python app.py
 
 
