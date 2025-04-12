@@ -1,12 +1,64 @@
-# React + Vite
+# 🧠 Parkinson's Disease Prediction using Voice Features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a web-based application that predicts Parkinson's Disease based on voice features using a trained Machine Learning model. The frontend is built using **React + Vite**, styled with **Tailwind CSS**, and the backend is powered by **Flask** with a Python-based ML model (XGBoost).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧬 What is Parkinson’s Disease?
 
-## Expanding the ESLint configuration
+Parkinson's Disease is a progressive neurological disorder that affects movement and speech. It often begins with a slight tremor in one hand and gradually causes stiffness or slowing of movement. 
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+One of the early signs of Parkinson’s can be detected through changes in voice. Subtle variations in pitch, jitter, shimmer, and other acoustic features can indicate the onset of the disease.
+
+Our application leverages **voice features** to detect Parkinson's with the help of a trained Machine Learning model.
+
+---
+
+## 🤖 Machine Learning Model
+
+We have used the **XGBoost (Extreme Gradient Boosting)** algorithm for making predictions. This algorithm is known for its high performance in classification tasks.
+
+- 🔍 Model: XGBoost Classifier
+- 🎯 Accuracy: Achieved high accuracy (over 90%) on validation data
+- 📁 Input: Voice features (e.g., MDVP:Fo(Hz), Jitter, Shimmer, etc.)
+- 📤 Output: Predicts if the person is likely to have Parkinson’s Disease
+
+---
+
+## 📌 Features
+
+- Upload voice features through UI.
+- Predict whether the given features indicate Parkinson's Disease.
+- Seamless integration of frontend and backend.
+- Lightweight and easy to deploy.
+
+---
+
+## 📂 Project Structure
+
+parkinsons-predictor/ ├── backend/ │ ├── app.py (Flask backend) │ ├── model.pkl (Trained ML model) │ └── requirements.txt ├── frontend/ │ ├── index.html │ ├── vite.config.js │ ├── src/ │ └── tailwind.config.js └── README.md
+
+yaml
+Copy
+Edit
+
+---
+
+## 🚀 Getting Started
+
+### 🔧 Prerequisites
+
+- Node.js (v18+ recommended)
+- Python (v3.8+)
+- pip or pipenv
+- Git
+
+---
+
+## ⚙️ Installation and Running the Project
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/parkinsons-predictor.git
+cd parkinsons-predictor
