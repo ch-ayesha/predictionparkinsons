@@ -43,7 +43,7 @@ function TestVoice() {
         const featureArray = Object.values(formData).map(parseFloat);
       
         try {
-          const response = await fetch("http://localhost:5000/predict", {
+          const response = await fetch("https://predictionparkinsons-rk8v-46ez98rcu-ayesha-aslams-projects.vercel.app", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
