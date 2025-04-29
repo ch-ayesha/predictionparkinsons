@@ -44,7 +44,7 @@ function TestVoice() {
       
         try {
             
-          const response = await fetch("https://predictionparkinsons-git-main-ayesha-aslams-projects.vercel.app?_vercel_share=n0ADoqtrKCDe57HJ2W2AyTBvN0Na6etE", {
+          const response = await fetch("predictionparkinsons-bb66-2dc3rdr3b-ayesha-aslams-projects.vercel.app", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
