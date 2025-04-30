@@ -13,6 +13,7 @@ import Navbar from "./components/Navbar.jsx";
 import TestDrawing from "./pages/TestDrawing.jsx";
 import TestVoice from "./pages/TestVoice.jsx";
 import FinalPrediction from "./pages/FinalPrediction.jsx";
+import VoiceResult from "./pages/VoiceResult.jsx";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             {/* <Route path="/" element={<Dashboard />} /> */}
             <Route path="/testdrawing" element={<TestDrawing />} />
             <Route path="/testvoice" element={<TestVoice />} />
+            <Route path="/voice-result" element={<VoiceResult />} />
             <Route path="/final" element={<FinalPrediction />} />
           </Routes>
         </div>
