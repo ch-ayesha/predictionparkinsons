@@ -13,8 +13,11 @@ try:
     print("✅ Model and scaler loaded successfully.")
 except Exception as e:
     print("❌ Error loading model or scaler:", str(e))
-
+@app.get("/")
+def read_root():
+    return {"message": "Welcome to Parkison Prediction API"}
 @app.route('/predict', methods=['POST'])
+
 def predict():
     try:
         data = request.get_json()
